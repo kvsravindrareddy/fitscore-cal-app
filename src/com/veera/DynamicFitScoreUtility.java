@@ -36,7 +36,7 @@ public class DynamicFitScoreUtility {
             Map<String, Integer> fitScoreCategoryTechnologies = new HashMap<>();
             int eachCategoryScore = originalFitScore / fitScoreCategoryTechnologies.size();
             System.out.println("Each category score : " + eachCategoryScore);
-            fitScoreCategoryTechnologies.addAll(jobSeekerTechnologies);
+            //fitScoreCategoryTechnologies.addAll(jobSeekerTechnologies);
             List<String> distinctList = jobSeekerTechnologies.stream().distinct().collect(Collectors.toList());
             expectedFitScore = distinctList.size() * eachCategoryScore;
         }
