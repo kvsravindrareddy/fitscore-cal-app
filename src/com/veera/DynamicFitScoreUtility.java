@@ -8,7 +8,6 @@ import java.util.stream.Collectors;
  */
 public class DynamicFitScoreUtility {
 
-
     /**
      * This method calculates the {@link Employer} fit score for the given both candidate and job seeker
      *
@@ -16,7 +15,6 @@ public class DynamicFitScoreUtility {
      */
     public static int findEmpFitScore(Employer employer) {
         int fitScore = 0;
-
         return fitScore;
     }
 
